@@ -1,14 +1,10 @@
-console.log ('Hello Toby')
-
 // Exercise 1: Age Check
 // Create a script that checks a user's age and outputs whether they are a child, teenager, adult, or senior.
 
 // Creating a varible to store the age of a person
-
 let personAge = 25;
 
 // lets create condition to determine  age in Kenya
-
 if (personAge >= 10 ) {
     console.log('You are a Child')
 } else if ( personAge >=13 && personAge >= 18 ) {
@@ -53,11 +49,8 @@ if (age < 13) {
 } else {
   console.log("You are a senior.");
 }
-// Exercise 2: Even or Odd
-// Write a script that checks if a number is even or odd.
 
-
-// Exercise 3: Grade Evaluation
+// Exercise 2: Grade Evaluation
 // Create a script that assigns a grade based on a score.
 
 let Grade = 85 ;
@@ -87,3 +80,23 @@ if (Grade === 20) {
 }else{
     console.log ('You did not Complete your Exams')
 }
+
+
+// here we will write a script that show the largets number
+
+// declartion of num variable 
+let num1 = 400;
+let num2 = 456;
+let num3 = 279;
+
+let largets;
+
+if (num1 >= num2  && num1 >= num3 ) {
+    largets = num1
+}else if (num2 >= num1 && num2 >= num3) {
+    largets = num2
+}else {
+    largets = num3
+}
+console.log (`The Largets number is: ${largets}`)
+
