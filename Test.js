@@ -77,6 +77,7 @@ if (num1 > 5 && num2  < 20) {
 // 9. Declare a variable 'month' and assign it a number from 1 to 12
 // Your code here:
 
+let month = 6;
 
 // 10. Using a switch statement, assign the season to a new variable 'season' based on 'month':
 // December, January, February: "Winter"
@@ -84,6 +85,31 @@ if (num1 > 5 && num2  < 20) {
 // June, July, August: "Summer"
 // September, October, November: "Fall"
 // Your code here:
+let season;
+switch (month) {
+    case 12:
+    case 1:
+    case 2:
+        season = 'Winter';
+        break;
+    case 3:
+    case 4:
+    case 5:
+        season = 'Spring';
+        break;
+    case 6:
+    case 7:
+    case 8:
+        season = 'Summer';
+        break;
+    case 9:
+    case 10:
+    case 11:
+        season = 'Fall';
+        break;
+    default:
+        season = 'Invalid month';
+}
 
 
 // Log all variables to check your work
@@ -95,6 +121,6 @@ console.log("Is Raining:", isRaining);
 console.log("Umbrella Decision:", umbrellaDecision);
 console.log("Num1:", num1);
 console.log("Num2:", num2);
-// console.log("Logical Result:", logicalResult);
-// console.log("Month:", month);
-// console.log("Season:", season);
+console.log("Logical Result:", logicalResult);
+console.log("Month:", month);
+console.log("Season:", season);
