@@ -46,10 +46,14 @@ if (score >= 90) {
 // 5. Declare a variable 'isRaining' and assign it a boolean value
 // Your code here:
 
+let isRaining = true;
+
 
 // 6. Using a ternary operator, assign "Bring an umbrella" or "Leave the umbrella" 
 // to a new variable 'umbrellaDecision' based on 'isRaining'
 // Your code here:
+
+let umbrellaDecision = isRaining ? "Bring an Umbrella" : "Leave the umbrella";
 
 
 // 7. Declare variables 'num1' and 'num2' and assign them values of 10 and 15 respectively
@@ -77,9 +81,9 @@ if (score >= 90) {
 console.log("Age:", age);
 console.log("Status:", status);
 console.log("Score:", score);
-// console.log("Grade:", grade);
-// console.log("Is Raining:", isRaining);
-// console.log("Umbrella Decision:", umbrellaDecision);
+console.log("Grade:", grade);
+console.log("Is Raining:", isRaining);
+console.log("Umbrella Decision:", umbrellaDecision);
 // console.log("Num1:", num1);
 // console.log("Num2:", num2);
 // console.log("Logical Result:", logicalResult);
