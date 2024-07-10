@@ -59,10 +59,19 @@ let umbrellaDecision = isRaining ? "Bring an Umbrella" : "Leave the umbrella";
 // 7. Declare variables 'num1' and 'num2' and assign them values of 10 and 15 respectively
 // Your code here:
 
+let num1 = 10;
+let num2 = 15;
+
 
 // 8. Using the AND (&&) operator, check if both 'num1' is greater than 5 AND 'num2' is less than 20
 // Assign the result to a new variable 'logicalResult'
 // Your code here:
+
+let logicalResult;
+
+if (num1 > 5 && num2  < 20) {
+
+};
 
 
 // 9. Declare a variable 'month' and assign it a number from 1 to 12
@@ -84,8 +93,8 @@ console.log("Score:", score);
 console.log("Grade:", grade);
 console.log("Is Raining:", isRaining);
 console.log("Umbrella Decision:", umbrellaDecision);
-// console.log("Num1:", num1);
-// console.log("Num2:", num2);
+console.log("Num1:", num1);
+console.log("Num2:", num2);
 // console.log("Logical Result:", logicalResult);
 // console.log("Month:", month);
 // console.log("Season:", season);
