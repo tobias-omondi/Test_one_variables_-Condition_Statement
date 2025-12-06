@@ -1,0 +1,1 @@
+const calc = document.getElementById('app')
